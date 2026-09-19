@@ -1,32 +1,16 @@
-# ASL Sign Language Recognition System
+# React + Vite
 
-An AI-based American Sign Language (ASL) recognition system that uses computer vision and machine learning to recognize ASL alphabet hand gestures through a webcam and convert them into text.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Technologies Used
+Currently, two official plugins are available:
 
-- Python
-- OpenCV
-- MediaPipe
-- Machine Learning
-- Webcam
-- Hand Landmark Detection
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Features
+## React Compiler
 
-- Real-time hand gesture detection
-- ASL alphabet recognition
-- Hand landmark extraction using MediaPipe
-- Webcam-based interaction
-- Conversion of recognized signs into text
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Project Goal
+## Expanding the ESLint configuration
 
-The goal of this project is to provide a communication-support tool that can recognize ASL alphabet gestures and display the corresponding text.
-
-## Future Improvements
-
-- Support more ASL signs and words
-- Text-to-speech conversion
-- Improved recognition accuracy
-- Real-time sentence formation# ASL project
-ASL project
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
